@@ -4,9 +4,17 @@
   "description": "A fluent API to FFMPEG (http://www.ffmpeg.org)",
   "keywords": [ "ffmpeg" ],
   "author": "Stefan Schaermeli <schaermu@gmail.com>",
+  "contributors": [{
+    "name": "Josh McArthur",
+    "email": "joshua.mcarthur@gmail.com",
+    "web": "http://joshmcarthur.com"
+  }],
   "bugs": {
       "mail": "schaermu@gmail.com",
       "url": "http://github.com/schaermu/node-fluent-ffmpeg/issues"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
   },
   "repository": "git://github.com/schaermu/node-fluent-ffmpeg.git",
   "engines" : { "node" : ">=0.4.0" },
